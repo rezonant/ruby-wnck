@@ -1,0 +1,14 @@
+= WNCK for Ruby
+
+Use the GNOME Window Navigator Construction Kit library with Ruby.
+
+== Install
+
+ gem install rezonant-wnck --source http://gems.github.com/
+
+
+== Usage
+
+This gem provides two classes Wnck::Screen and Wnck::Window which provide access to the 
+services of libwnck. Alternatively you may use the direct C-style bindings from the Wnck
+module, such as Wnck::wnck_screen_get_default.

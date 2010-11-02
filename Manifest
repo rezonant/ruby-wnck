@@ -1,0 +1,6 @@
+README.rdoc
+Rakefile
+lib/wnck.rb
+spec/wnck_screen_spec.rb
+spec/wnck_window_spec.rb
+Manifest
