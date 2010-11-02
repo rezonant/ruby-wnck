@@ -1,11 +1,21 @@
 = WNCK for Ruby
 
-Use the GNOME Window Navigator Construction Kit library with Ruby.
+Use the GNOME Window Navigator Construction Kit library with Ruby. The library is not yet complete, and only covers the
+essential functionality of the library. Support for workspaces will be added in the near future.
 
 == Install
 
- gem install rezonant-wnck --source http://gems.github.com/
+To build and install this gem from source on your local machine, use:
 
+ rake install
+
+To install the latest released version of this gem, use:
+
+ gem install wnck
+
+If your default remote gem repository is not rubygems.org, you must use:
+
+ gem install wnck --source http://rubygems.org/
 
 == Usage
 
